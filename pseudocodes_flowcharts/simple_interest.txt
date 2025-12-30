@@ -1,0 +1,19 @@
+flowchart-
+
+start
+|
+input variables P,R,T
+|
+SI = (P*R*T)/100
+|
+print SI
+| 
+Exit
+
+pseudocode-
+
+1. start
+2. input variable P,R,T
+3. Calculate SI =(P*R*T)/100
+4. Print SI
+5. Exit

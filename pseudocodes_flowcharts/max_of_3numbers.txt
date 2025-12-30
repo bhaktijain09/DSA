@@ -1,0 +1,42 @@
+flowchart-
+
+start
+|
+input variable a,b,c 
+|
+calculate if - a>b
+          yes|------|no
+             |      |
+     -------a>c    b>c-------
+else |   yes|      |yes      | else 
+     |      |      |         |
+     |   print a  print b    |
+     |--------> c <----------|
+
+
+pseudocode- 
+
+1. start
+2. input variable a,b,c 
+3. calulate/ compare -
+
+if a > b and a > c
+    print(a)
+else if b > c             ----- pseudocode 
+    print(b)
+else
+    print(c)
+
+ ---------OR--------
+
+max = a
+if b > max
+    max = b
+if c > max
+    max = c
+print(max)
+
+
+4. print already written in pseudocode above
+5. exit
+        

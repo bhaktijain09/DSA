@@ -1,0 +1,54 @@
+flowchart-
+
+   start
+     |
+    C = 1        #about to take 1st score ie 1st exam score 
+    Sum = 0      #no scores added yet
+     |
+     |<------------<-------|
+     |                     |
+is C<=25 ?                 |
+|    |                     |
+|no  |  yes                |
+|    |                     |
+|    Enter exam score S    |
+|    |                     |
+|    Sum=Sum+S             |
+|    |                     |
+|    C=C+1 ----->----------|       # C = no.of exam score ie C=1 is 1st exam score, C=2 is 2nd exam score...
+|                     
+|
+Avg = Sum/25
+|
+print Avg
+|
+exit
+
+pseudocode - 
+
+start
+   
+SET C = 1        #about to take 1st score ie 1st exam score 
+SET Sum = 0      #no scores added yet
+
+while C<=25 do    #while condition do         Unless and until the no. of exam scores count are less than or equal to 25, 
+input S           #statement                  keep inserting score ie actual marks
+Sum= Sum+S        #statement                  keep adding current score in previous sum
+C=C+1             #statement                  keep incrementing no. of exam score by 1 in previous count till we reach 25
+
+end while
+Avg=Sum/25   #final logic
+print Avg    #final output statement
+
+exit
+
+# for understanding -
+
+# C    S     SUM=0 initially when nothing added and C=1 ie iteration starts with 1
+# 1    45    45
+# 2    55    100
+# 3    79    179
+# 4    54    233
+# .    .     .
+# .    .     .
+# .    .     .

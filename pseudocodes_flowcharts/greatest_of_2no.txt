@@ -1,0 +1,21 @@
+# flowchart
+
+Start 
+|
+input a,b 
+|
+|    no
+a>b--->----print b
+|
+| yes
+|
+print a
+
+# pseudocode
+
+start
+input a,b
+if a>b
+print a
+else print b
+exit

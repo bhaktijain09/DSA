@@ -1,0 +1,41 @@
+
+flowchart- 
+
+start
+|
+input n, div
+|
+div=2 
+| -----<-------------|
+|                    |
+n>8 and n<101 -<--- n=n+1 --<--
+|                             |
+| yes                         |
+|           yes               |
+n%div==0 -------- print n     |
+|  no                         |
+|------------->---------------|
+
+pseudocode -
+
+<!-- START
+INITIALIZE variable      (Where counting starts)
+
+WHILE condition DO
+    statements
+    update
+END WHILE
+
+EXIT -->
+
+START
+SET n = 9       <!--(Where counting starts) -->
+
+WHILE n <= 100 DO   <!-- condition -->
+    IF n % 2 == 0 THEN    <!-- statement -->
+        PRINT n
+    END IF
+    n = n + 1   <!-- update -->
+END WHILE 
+
+EXIT

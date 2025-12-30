@@ -1,0 +1,21 @@
+sum of 2 numbers - 
+
+
+start (start) oval
+|
+input a & b (input) parallelogram
+|
+sum = a + b  (process) rect
+|
+print sum (output) parallelogram
+|
+exit (exit) oval
+
+
+
+pseudocode - 
+1. start
+2. input numbers a & b 
+3. calculate sum = a + b
+4. print sum
+5. exit

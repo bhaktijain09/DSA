@@ -1,0 +1,34 @@
+flowchart-
+
+start
+|
+input n
+|
+val=1, sum=0
+|
+val<=n ------<---------------|
+|   |                        |
+|no |  yes                   |
+|   ------|sum=sum+val |-->--|
+|         |val=val+1   |
+print 
+sum
+|
+exit
+
+pseudocode - 
+
+start
+take input n
+declare val=1, sum=0 
+while val<=n do
+sum=sum+val       # - use current value
+val=val+1         # - then move to next (incrementing)
+end while
+print sum
+exit
+
+# how while-end while loop works
+# while (condition) do
+# (statement)
+# end while

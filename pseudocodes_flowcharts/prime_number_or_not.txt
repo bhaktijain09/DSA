@@ -1,0 +1,36 @@
+flowchart - 
+
+            start
+              |
+        input n
+              |
+        let div=2
+              |
+      no      |
+ ------------div<n--<--------
+ |            |             |
+print      yes|         div=div+1
+prime         |             |
+ |           n%div == 0? -->--
+ |            |           no 
+ |        yes |
+ |            |
+ |          print not 
+ |          prime
+ |            |   
+ |----exit----|
+
+pseudocode -
+
+start
+input n
+let div = 2
+while div < n do
+    if n % div == 0
+        print "Not Prime"
+        exit
+    else
+        div = div + 1
+print "Prime"
+exit
+
