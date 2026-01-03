@@ -3,6 +3,7 @@ package operators;
 public class logical_operators {
     public static void main(String[] args) {
 
+
         //Logical AND (&&)
         System.out.println( (3>2) && (5>4) );  //T&&T = T
         System.out.println( (3>2) && (3>4) );  //T&&F = F
