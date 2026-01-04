@@ -36,3 +36,8 @@ public class switch_statement {
 // }
 
 // output - int variable = x matches case x so prints statement3
+
+
+
+
+
