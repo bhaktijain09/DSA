@@ -1,0 +1,30 @@
+package conditional_statements;
+import java.util.*;
+public class week_NumberName_switchcase {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+         System.out.println("Enter the week number:");
+          int weekNumber = sc.nextInt();
+    
+        
+        switch(weekNumber){
+             case 1: System.out.println("The day is Monday");
+            break;
+             case 2: System.out.println("The day is Tuesday");
+            break;
+             case 3: System.out.println("The day is Wednesday");
+            break;
+             case 4: System.out.println("The day is Thursday");
+            break;
+             case 5: System.out.println("The day is Friday");
+            break;
+             case 6: System.out.println("The day is Saturday");
+            break;
+             case 7: System.out.println("The day is Sunday");
+            break;
+            default: System.out.println("Invalid week number. Enter a value between 1 and 7.");
+        }
+
+
+    }
+}
