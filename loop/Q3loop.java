@@ -25,14 +25,49 @@ public class Q3loop {
 
 
 
-        // int i = 0;
-        // do{
-        // number= (number-i); 
-        // i++;
-        // int factorial = number;
-      
-        // }while(number<i);
-        //   System.out.println(factorial); 
-       
-    
+// | Iteration | i | factorial (before) | factorial = factorial × i | factorial (after) |
+// | --------- | - | ------------------ | ------------------------- | ----------------- |
+// | Start     | – | 1                  | –                         | 1                 |
+// | 1         | 1 | 1                  | 1 × 1                     | 1                 |
+// | 2         | 2 | 1                  | 1 × 2                     | 2                 |
+// | 3         | 3 | 2                  | 2 × 3                     | 6                 |
+// | 4         | 4 | 6                  | 6 × 4                     | 24                |
+// | 5         | 5 | 24                 | 24 × 5                    | 120               |
+
+
+
+// Iteration-wise explanation
+//  Before loop
+
+// i = 1
+// factorial = 1
+
+//  Iteration 1
+// i = 1                     
+// factorial = 1 × 1 = 1           // factorial = factorial * i
+// i becomes 2                     // i increases by 1 and "previous factorial result" is used as "factorial for multiplication" in current iteration to get new "factorial result" 
+
+//  Iteration 2
+// i = 2
+// factorial = 1 × 2 = 2            // factorial = factorial * i
+// i becomes 3                      // i increases by 1 and "previous factorial result" is used as "factorial for multiplication" in current iteration to get new "factorial result" 
+
+//  Iteration 3
+// i = 3
+// factorial = 2 × 3 = 6              // factorial = factorial * i
+// i becomes 4                       // i increases by 1 and "previous factorial result" is used as "factorial for multiplication" in current iteration to get new "factorial result" 
+
+//  Iteration 4
+// i = 4
+// factorial = 6 × 4 = 24           // factorial = factorial * i
+// i becomes 5                     // i increases by 1 and "previous factorial result" is used as "factorial for multiplication" in current iteration to get new "factorial result" 
+
+//  Iteration 5
+// i = 5
+// factorial = 24 × 5 = 120         // factorial = factorial * i
+// i becomes 6                      // i increases by 1 and "previous factorial result" is used as "factorial for multiplication" in current iteration to get new "factorial result" 
+
+//  Loop stops
+
+// Condition: 6 <= 5  → loop ends
 
