@@ -1,9 +1,9 @@
 // Q2 of loop assignment - Write a program that reads a set of integers, and then prints the sum of the even and odd integers
 package loop;
-import java.util.Scanner;
+import java.util.*;
+public class Q2loop {
+public static void main(String[] args) {
 
-public class Q2loop.java {
-    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int sumEven = 0;
