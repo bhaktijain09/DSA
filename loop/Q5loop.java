@@ -17,7 +17,6 @@
 // soltion - 
 
 // System.out.println("i after the loop = "+ i ); statement should be inside for loop since i variable is declared inside for loop
-
 // The statement must be inside the loop OR i must be declared outside the loop.
 
 // two solutions to correct it : 
