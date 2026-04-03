@@ -30,7 +30,7 @@ public class BinomialCoefficient {
 
     int nCr = fact_n / (fact_r * fact_nmr);
 
-        System.out.println(nCr);
+        System.out.println("Binomial Coefficient of n = " + n + " and r = " + r + " is " + nCr);
     }
 
     }
